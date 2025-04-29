@@ -29,9 +29,9 @@ alien_cat1 = Alien_cat( 400, 'Black and White', 'Dangerous', 'Pilzbow', 'Lutheri
 alien_cat2 = Alien_cat( 4120, 'Green and Blue', 'Dangerous', 'Jaztoed', 'fulars')
 
 
-print(f'\nThe first aliens name is {alien_cat1.age}, there fur color is {alien_cat1.fur_color}.')
+print(f'\nThe first aliens name is {alien_cat1.name}, there fur color is {alien_cat1.fur_color}.')
 alien_cat1.fly()
 
 
-print(f'\nThe second aliens name is {alien_cat2.age}, there fur color is {alien_cat2.fur_color}.')
+print(f'\nThe second aliens name is {alien_cat2.name}, there fur color is {alien_cat2.fur_color}.')
 alien_cat1.lazer_eyes()
